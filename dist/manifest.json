@@ -1,0 +1,28 @@
+{
+  "name": "RuleWeaver - 规则怪谈创作辅助",
+  "short_name": "RuleWeaver",
+  "description": "离线优先的规则怪谈创作辅助工具，帮助作者管理复杂的世界观设定",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16213e",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
