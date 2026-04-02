@@ -116,7 +116,7 @@
                     {{ style.name }}
                   </button>
                 </div>
-                <button class="btn btn-primary btn-sm" @click="polishText" :disabled="polishing">
+                <button class="btn btn-primary btn-sm" @click="polishTextContent" :disabled="polishing">
                   {{ polishing ? '润色中...' : '开始润色' }}
                 </button>
                 <div v-if="polishedText" class="polish-result">
@@ -129,7 +129,7 @@
               <!-- 续写 -->
               <div v-if="activeAiTab === 'continue'" class="ai-section">
                 <p class="ai-desc">AI 根据上下文续写</p>
-                <button class="btn btn-primary btn-sm" @click="continueStory" :disabled="continuing">
+                <button class="btn btn-primary btn-sm" @click="continueStoryContent" :disabled="continuing">
                   {{ continuing ? '续写中...' : '生成续写' }}
                 </button>
                 <div v-if="continuedText" class="continue-result">
